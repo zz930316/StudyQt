@@ -16,14 +16,19 @@ int main(int argc, char *argv[])
     QPushButton b;
     b.setText("- -");//设置按钮名字
     b.setParent(&w);//通过ssetParent函数指定父对象
-    b.move(100,100);//移动坐标
+    b.resize(40,30);
+
 
     QPushButton b1(&w);//构造函数指定父对象
     b1.setText("abc");
+    b1.move(100,100);//移动坐标
 
     QLabel label("Hello,world");
     label.setParent(&w);
+    label.setGeometry(50,50,80,80);//改变标签的位置和大小，前两个是位置，后两个是大小
+
 
     w.show();
+    w.resize(500,500);
     return app.exec();
 }
