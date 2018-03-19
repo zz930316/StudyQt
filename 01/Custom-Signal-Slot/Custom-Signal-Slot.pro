@@ -31,3 +31,4 @@ SOURCES += \
 HEADERS += \
         mainwindow.h \
     subwidget.h
+CONFIG += C++11

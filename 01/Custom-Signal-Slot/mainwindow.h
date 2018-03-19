@@ -5,6 +5,7 @@
 #include <QPushButton>
 #include "subwidget.h"      //子窗口头文件
 
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -12,14 +13,13 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = 0);
     ~MainWindow();
+signals:
 
-signals:        //信号
-
-public slots:   //槽
+public slots:
     void myslot();
     void Show1();
-    void Show2();
-
+    void dealSub();
+    void deaSlot(int ,QString);
 
  //创建了两个按钮
 private:
