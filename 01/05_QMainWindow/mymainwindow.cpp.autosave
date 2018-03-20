@@ -69,6 +69,7 @@ MyMainWindow::MyMainWindow(QWidget *parent)
     //浮动窗口
     QDockWidget *dock = new QDockWidget(this);
     addDockWidget(Qt::RightDockWidgetArea,dock);
+        //给浮动窗口添加控件
     QTextEdit *tEdit = new QTextEdit();
     dock->setWidget(tEdit);
 
