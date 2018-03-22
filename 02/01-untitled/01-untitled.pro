@@ -33,3 +33,6 @@ HEADERS += \
 FORMS += \
         mainwindow.ui
 CONFIG +=C++11
+
+RESOURCES += \
+    image.qrc
