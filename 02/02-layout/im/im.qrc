@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>1104191UA0-8.jpg</file>
+        <file>im.qrc</file>
+        <file>timg.gif</file>
+        <file>ufm.jpg</file>
+        <file>yyyy.jpg</file>
+    </qresource>
+</RCC>
